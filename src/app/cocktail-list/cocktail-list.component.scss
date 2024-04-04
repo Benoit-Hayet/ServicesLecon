@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+.cocktailContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjust as needed */
+}
+
+.cocktailCard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.cocktailCard img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
